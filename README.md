@@ -12,10 +12,16 @@ SnailIntepreter
 4.程序不支持使用‘\t’ TAB缩进对齐，仅支持空格对齐；
 
 5. if语句输入格式：
+
 ```C
     if exp then
-        stmt_list
+
+	stmt_list
+	
 	    (else)
-	    (stmt_list)
-    endif
+	    
+  	    (stmt_list)
+    
+     endif
 ```
+
