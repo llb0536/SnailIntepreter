@@ -15,13 +15,9 @@ SnailIntepreter
 
 ```C
     if exp then
-
 	stmt_list
-	
 	    (else)
-	    
   	    (stmt_list)
-    
      endif
 ```
 
